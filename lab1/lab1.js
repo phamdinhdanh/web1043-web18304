@@ -7,3 +7,4 @@ let b = prompt("Nhap so nguyen b:")
 let c = parseInt(a)+parseInt(b);
 document.write(c);
 console.log(c);
+console.log("Tổng của "+a+"và "+b+"là :"+c);
