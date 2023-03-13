@@ -7,13 +7,16 @@ let a = parseInt(prompt("moi nhập a"));
     if(a*a==b*b+c*c || b*b==a*a+c*c || c*c== a*a+b*b){
         document.write('Đây là tam giác vuông');
 
-    }else if(a==b && b==c){
+    }else if(a==b || a==c || b==c){
         document.write('Đây là tam giác cân');
-    }else{
+   
+    }else if (a==b && b==c){
+        document.write('Đây là tam giác đều');
+     }else{
         document.write('Đây là tam giác thường');
-    }
 
  }else{
-    document.write('ba cạnh a,b,c không phải là ba cạnh của một tam giác!');
+    document.write('Không phải ba cạnh cảu một tam giác');
 
  }
+}
