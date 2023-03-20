@@ -12,11 +12,11 @@ let a = parseInt(prompt("moi nhập a"));
    
     }else if (a==b && b==c){
         document.write('Đây là tam giác đều');
-     }else{
-        document.write('Đây là tam giác thường');
+    }else{
+        document.write('Đây là tam giác thường');}
+
+ 
 
  }else{
     document.write('Không phải ba cạnh cảu một tam giác');
-
- }
 }
